@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: process.env.REACT_APP_API_BASE_URL || "http://localhost:5000",
+  baseURL: process.env.REACT_APP_API_BASE_URL || "https://teacher-portal-backend-1ge4.onrender.com",
 });
 
 instance.interceptors.request.use(
